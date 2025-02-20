@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sajidali's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <img src="sajidali.jpg" alt="">
+            </div>
+            <div class="rightSection">Hi, My name is <span class="purple">Sajidali</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Sajdiali.pdf" download="Sajidali_Resume.pdf">
+                        <button class="btn">Download Resume</button>
+                    </a>
+                    <a href="https://github.com/Sajidali-219" target="_blank">
+                        <button class="btn">Visit Github</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HACKVEDA LIMITED
+                        <div>Front-End Developer Intern</div>
+                    </div>
+                    <div class="vertical-desc">
+                        July 2024 - Aug 2024
+                        <div>Worked on developing a doctor search website using Figma and Locofy. Built a doctors
+                            database with web services for easy search and designed a simple, user-friendly, and
+                            responsive website.</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="w1.png" alt="">
+                    <div class="vertical-title">
+                        JBINFOTECH
+                    </div>
+                    <div class="vertical-desc">
+                        <div>Aug 2024</div>
+                        <div>Developed a LOGIN AND SIGNUP PAGE for the company named JBinfoTech.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front-End Developer', 'Video Editor', 'Athlete'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Sajidali's Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li><a href="https://github.com/Sajidali-219"><i class="fab fa-github" target="_blank"></i> GitHub</a></li>
+                <li><a href="https://www.instagram.com/sajidali219/"><i class="fab fa-instagram" target="_blank"></i> Instagram</a>
+                </li>
+                <li><a href="mailto:sajidali.work219@gmail.com"><i class="fas fa-envelope" target="_blank"></i> Email</a></li>
+                <!-- <li><a href="wa.me/+91-9426516707"><i class="fab fa-whatsapp" target="_blank"></i> WhatsApp</a></li> -->
+                <li><a href="https://www.linkedin.com/in/sajidali-ansari-b3aa57149/" target="_blank"><i class="fab fa-linkedin"></i>
+                        linkedin</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="footer-rights">
+        Copyright &#169; Sajidalisportfolio.com | All rights reserved
+    </div>
+</footer>
+
+</html>
